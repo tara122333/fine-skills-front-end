@@ -1,5 +1,4 @@
 import React from "react";
-// import { WorkShopBanner } from "../../config/home/home.config";
 
 const WorkShopPoster = (props) =>{
     return(

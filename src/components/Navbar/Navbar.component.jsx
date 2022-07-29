@@ -3,21 +3,25 @@ import {BiLogIn} from 'react-icons/bi'
 // import {GiCancel} from 'react-icons/gi'
 // import Button from './Button.component';
 import MyModel from './MyModel.component';
+import {Link} from 'react-router-dom'
 
 const Navbar = ()=>{
     let Links = [
+        // {
+        //     name:"Course", link:"/course"
+        // },
         {
-            name:"Course", link:"/course"
+            name:"Home", link:"/"
         },
         {
-            name:"Get Hire", link:"/hire"
+            name:"Event", link:"/event"
         },
         {
             name:"About", link:"/about"
         },
-        // {
-        //     name:"Contact", link:"/contact"
-        // },
+        {
+            name:"Contact", link:"/contact"
+        },
     ];
     let [open,setOpen] = useState(false);
     let [showMyModel,setShowMyModel] = useState(false);
@@ -26,10 +30,12 @@ const Navbar = ()=>{
         <>
             <div className="shadow-md w-full fixed top-0 left-0">
                 <div className='md:flex items-center justify-between bg-tara-0 py-3 md:px-10 px-7'>
-                    <div className='font-bold text-2xl cursor-pointer flex items-center'>
-                        <span className='text-white'>Fine</span>
-                        <span className='text-tara-1'>Skills</span>
-                    </div>
+                    <Link to="/">
+                        <div className='font-bold text-2xl cursor-pointer flex items-center'>
+                            <span className='text-white'>Fine</span>
+                            <span className='text-tara-1'>Skills</span>
+                        </div>
+                    </Link>
                     <div className='text-3xl absolute right-8 top-3 cursor-pointer text-tara-1 md:hidden' onClick={()=> setOpen(!open)}>
                         <ion-icon name={open ? 'close-circle-outline' : 'grid-outline'}></ion-icon>
                     </div>

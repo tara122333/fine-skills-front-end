@@ -10,7 +10,7 @@ const HomeLayout = () =>{
             <div className="mb-20 md:mb-24">
                 <Navbar/>
             </div>
-            <div className="md:container md:mx-auto md:px-10">
+            <div>
                 <HomePage />
             </div>
             <div className="mt-7">
