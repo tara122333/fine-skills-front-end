@@ -15,9 +15,9 @@ const Navbar = ()=>{
         {
             name:"About", link:"/about"
         },
-        {
-            name:"Contact", link:"/contact"
-        },
+        // {
+        //     name:"Contact", link:"/contact"
+        // },
     ];
     let [open,setOpen] = useState(false);
     let [showMyModel,setShowMyModel] = useState(false);
