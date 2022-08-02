@@ -5,6 +5,7 @@ import img from '../Image/home.png';
 import Explore from '../Image/explore.png';
 import {Link} from 'react-router-dom';
 import Learn from '../Image/learning.jpg';
+import Banner from '../Image/banner.png';
 import intract from '../Image/intract.png';
 import community from '../Image/community.jpg';
 import ExpertComponent from "../components/Expert/expert.component";
@@ -25,7 +26,7 @@ const HomePage = ()=>{
                     <div className="flex flex-col gap-4 my-5">
                         {/* bottom */}
                         <div className="flex flex-col">
-                            <h1 className="text-3xl font-bold text-center my-2 md:text-4xl lg:text-6xl md:my-5 mb-3 md:mb-7">India's Biggest Learning and Exploring Youth Community</h1>
+                            <h1 className="text-3xl font-bold text-center my-2 md:text-4xl lg:text-6xl md:my-5 mb-3 md:mb-7">India's Biggest Learning and Exploring <span className="text-tara-1">Youth</span> platform</h1>
                             <span className="text-xl font-bold text-start ml-5 md:text-2xl">Learn from experts and network through Workshops,</span>
                             <span className="text-xl font-bold text-start ml-5 md:text-2xl">Join clubs and learn real life skills,</span>
                             <span className="text-xl font-bold text-start ml-5 md:text-2xl">Hang out on our discord server to make new friends and have fun :)</span>
@@ -61,13 +62,13 @@ const HomePage = ()=>{
                         <div className="bg-tara-0 w-full flex justify-center items-center flex-col md:flex-row gap-4 py-4">
                             {/* <WorkShopsCarouselPoster className="w-full h-full"/> */}
                             <div className="h-72 w-full">
-                            <img src="https://cdn5.vectorstock.com/i/1000x1000/53/74/special-offer-banner-poster-background-sale-vector-26165374.jpg" alt="banner"  className="w-full h-full"/>
+                            <img src={Banner} alt="banner"  className="w-full h-full"/>
                             </div>
                             <div className="h-72 w-full">
-                                <img src="https://cdn5.vectorstock.com/i/1000x1000/53/74/special-offer-banner-poster-background-sale-vector-26165374.jpg" alt="banner"  className="w-full h-full"/>
+                                <img src={Banner} alt="banner"  className="w-full h-full"/>
                             </div>
                             <div className="h-72 w-full">
-                                <img src="https://cdn5.vectorstock.com/i/1000x1000/53/74/special-offer-banner-poster-background-sale-vector-26165374.jpg" alt="banner"  className="w-full h-full"/>
+                            <img src={Banner} alt="banner"  className="w-full h-full"/>
                             </div>
                         </div>
                     </div>
