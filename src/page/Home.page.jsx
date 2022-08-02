@@ -17,13 +17,13 @@ const HomePage = ()=>{
     return(
         <>
             <div className="flex gap-7 flex-col">
-                <div className="flex flex-col md:flex-row-reverse md:justify-between md:items-center md:container md:mx-auto md:px-10 md:mt-16">
-                    <div className="w-full">
-                        <div className="w-full h-full px-10">
-                            <img src={img} alt="hometheme" className="w-full h-full" />
+                <div className="flex flex-col md:flex-row-reverse md:justify-between md:container md:mx-auto md:px-10 md:mt-14">
+                    <div className="w-full h-full">
+                        <div className="p-10">
+                            <img src="https://bootstrapmade.com/demo/templates/Arsha/assets/img/hero-img.png" alt="hometheme" className="w-full h-full animate-tara" />
                         </div>                   
                     </div>
-                    <div className="flex flex-col gap-4 my-5">
+                    <div className="flex flex-col gap-4">
                         {/* bottom */}
                         <div className="flex flex-col">
                             <h1 className="text-3xl font-bold text-center my-2 md:text-4xl lg:text-6xl md:my-5 mb-3 md:mb-7">India's Biggest Learning and Exploring <span className="text-tara-1">Youth</span> platform</h1>
