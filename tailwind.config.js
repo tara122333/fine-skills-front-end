@@ -4,6 +4,9 @@ module.exports = {
   ],
   theme: {
       extend: {
+        animation: {
+          'tara': 'bounce 5s linear infinite',
+        },
         colors: {
           "tara" : {
             0 : "#630944",
