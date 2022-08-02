@@ -1,7 +1,7 @@
 import React from "react";
-import Login from "../User/Login";
+import SignUp from "../User/SignUp";
 
-const MyModel = ({visiable,onClose}) =>{
+const SignUpMyModel = ({visiable,onClose}) =>{
     if(!visiable) return null;
     // const handleOnClose = ()=>{
     //     onClose();
@@ -15,11 +15,11 @@ const MyModel = ({visiable,onClose}) =>{
                     </button>
                 </div>
                 <div className="w-full">
-                    <Login onClose={onClose}/>
+                    <SignUp />
                 </div>
             </div>
         </div>
     );
 }
 
-export default MyModel;
+export default SignUpMyModel;

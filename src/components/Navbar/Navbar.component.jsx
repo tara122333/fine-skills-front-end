@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import {BiLogIn} from 'react-icons/bi'
 // import {GiCancel} from 'react-icons/gi'
 // import Button from './Button.component';
