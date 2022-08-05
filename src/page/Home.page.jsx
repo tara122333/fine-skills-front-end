@@ -39,7 +39,7 @@ const HomePage = ()=>{
                                     <span className="text-tara-1 text-lg">join Whats App</span>
                                 </div>
                             </a>
-                            <a href="https://t.me/fine_skills" target="_blank" className="w-full bg-tara-0 rounded-full cursor-pointer">
+                            <a href="https://discord.gg/kJESc7gA" target="_blank" className="w-full bg-tara-0 rounded-full cursor-pointer">
                                 <div className="flex gap-4 px-3 py-2 justify-center items-center">
                                     <FaDiscord  className="text-tara-1 text-xl"/>
                                     <span className="text-tara-1 text-lg">join Discord</span>
