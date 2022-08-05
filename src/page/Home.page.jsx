@@ -20,7 +20,7 @@ const HomePage = ()=>{
             <div className="flex gap-7 flex-col">
                 <div className="flex flex-col md:flex-row-reverse md:justify-between md:container md:mx-auto md:px-10 md:mt-10">
                     <div className="w-full md:w-1/2 h-full">
-                        <div className="px-20">
+                        <div className="px-3 py-8 md:px-20 md:py-5">
                             <img src={img} alt="hometheme" className="w-full h-full" />
                         </div>                   
                     </div>
@@ -33,9 +33,9 @@ const HomePage = ()=>{
                                 <span>Platform</span> */}
                                 We are the Community of Learner's and Experts
                             </h1>
-                            <span className="text-xl font-bold text-start ml-5 md:text-xl">Learn from experts and network through Workshops,</span>
-                            <span className="text-xl font-bold text-start ml-5 md:text-xl">Join clubs and learn real life skills,</span>
-                            <span className="text-xl font-bold text-start ml-5 md:text-xl">Hang out on our discord server to make new friends and have fun :)</span>
+                            <span className="text-xl font-semibold text-start ml-5 md:text-xl">Learn from experts and network through Workshops,</span>
+                            <span className="text-xl font-semibold text-start ml-5 md:text-xl">Join clubs and learn real life skills,</span>
+                            <span className="text-xl font-semibold text-start ml-5 md:text-xl">Hang out on our discord server to make new friends and have fun :)</span>
                         </div>
                         <div className="w-full flex flex-col gap-3 px-2 md:px-0 md:my-5 md:flex-row">
                             <a href=" https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2" target="_blank" className="w-full bg-tara-0 rounded-full">
