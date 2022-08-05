@@ -32,8 +32,8 @@ const HomePage = ()=>{
                             <span className="text-xl font-bold text-start ml-5 md:text-2xl">Join clubs and learn real life skills,</span>
                             <span className="text-xl font-bold text-start ml-5 md:text-2xl">Hang out on our discord server to make new friends and have fun :)</span>
                         </div>
-                        <div className="w-full flex gap-3 px-2 md:px-0 md:my-5">
-                            <a href=" https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2" className="w-full bg-tara-0 rounded-full">
+                        <div className="w-full flex flex-col gap-3 px-2 md:px-0 md:my-5 md:flex-row">
+                            <a href=" https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2"className="w-full bg-tara-0 rounded-full">
                                 <div className="flex gap-4 px-3 py-2 justify-center items-center">
                                     <BsWhatsapp  className="text-tara-1 text-xl"/>
                                     <span className="text-tara-1 text-lg">join Whats App</span>
