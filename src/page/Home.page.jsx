@@ -19,12 +19,12 @@ const HomePage = ()=>{
         <>
             <div className="flex gap-7 flex-col">
                 <div className="flex flex-col md:flex-row-reverse md:justify-between md:container md:mx-auto md:px-10 md:mt-10">
-                    <div className="w-1/2 h-full">
+                    <div className="w-full md:w-1/2 h-full">
                         <div className="px-20">
                             <img src={img} alt="hometheme" className="w-full h-full" />
                         </div>                   
                     </div>
-                    <div className="flex flex-col gap-4 md:gap-8 w-1/2 justify-center items-center">
+                    <div className="flex flex-col gap-4 md:gap-8 w-full md:w-1/2 justify-center items-center">
                         {/* bottom */}
                         <div className="flex flex-col">
                             <h1 className="text-3xl font-bold text-center my-2 md:text-4xl lg:text-6xl md:my-5 mb-3 md:mb-7">
