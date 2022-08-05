@@ -25,17 +25,17 @@ const Footer = () =>{
                         <h3 className="text-xl font-bold md:text-2xl">Socials</h3>
                         <div className="flex gap-4">
                             <div className="w-8 h-8">
-                                <a href="https://instagram.com/fineskills.co?igshid=YmMyMTA2M2Y=">
+                                <a href="https://instagram.com/fineskills.co?igshid=YmMyMTA2M2Y=" target="_blank">
                                 <BsInstagram className="w-full h-full"/>
                                 </a>
                             </div>
                             <div className="w-8 h-8">
-                                <a href="https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2">
+                                <a href="https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2" target="_blank">
                                 <BsWhatsapp className="w-full h-full"/>
                                 </a>
                             </div>
                             <div className="w-8 h-8">
-                                <a href="https://www.linkedin.com/company/fineskills-co/">
+                                <a href="https://www.linkedin.com/company/fineskills-co/" target="_blank">
                                     <BsLinkedin className="w-full h-full"/>
                                 </a>
                             </div>
