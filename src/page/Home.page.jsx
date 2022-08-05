@@ -96,8 +96,8 @@ const HomePage = ()=>{
                                 <img src={intract} alt="intract" className="w-full h-full rounded-md bg-white" />
                             </div>
                             <div className="flex flex-col gap-1 w-3/4 my-3">
-                                <h3 className="text-2xl text-start md:font-bold">Intract With The Best</h3>
-                                <p className="text-start text-lg">Go beyond pre-recorded courses with Growth School LIVE and get doubts cleared personally</p>
+                                <h3 className="text-2xl text-start md:font-bold">Learn From Top 1 %</h3>
+                                <p className="text-start text-lg">Attend Workshops & get a chane from the expert </p>
                             </div>
                         </div>
                         <div className="flex gap-3 ml-5 justify-center items-center">
@@ -105,7 +105,7 @@ const HomePage = ()=>{
                                 <img src={community} alt="community" className="w-full h-full  rounded-md bg-white"/>
                             </div>
                             <div className="flex flex-col gap-1 w-3/4 my-3">
-                                <h3 className="text-2xl text-start md:font-bold">The Community at the center</h3>
+                                <h3 className="text-2xl text-start md:font-bold">Build Your Portfolio</h3>
                                 <p className="text-start text-lg">Enjoy the best of peer-led learning with tons of events while building lifelong relationships</p>
                             </div>
                         </div>
@@ -123,8 +123,8 @@ const HomePage = ()=>{
                                 <img src={best} alt="Learn" className="w-full h-full rounded-md bg-white"/>
                             </div>
                             <div className="flex flex-col gap-1 w-3/4 my-3">
-                                <h3 className="text-2xl text-start md:font-bold">Intract With The Best</h3>
-                                <p className="text-start text-lg">Go beyond pre-recorded courses with Growth School LIVE and get doubts cleared personally</p>
+                                <h3 className="text-2xl text-start md:font-bold">Join Workshops</h3>
+                                <p className="text-start text-lg">Actionable programs to offset the Pareto Principle; you will execute projects using what you learned</p>
                             </div>
                         </div>
                     </div>
