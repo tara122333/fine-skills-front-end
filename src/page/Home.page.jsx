@@ -4,10 +4,11 @@ import {FaDiscord} from 'react-icons/fa';
 import img from '../Image/home.jpeg';
 import Explore from '../Image/explore.png';
 import {Link} from 'react-router-dom';
-import Learn from '../Image/learning.jpg';
+import Learn from '../Image/learning.png';
 import Banner from '../Image/banner.png';
 import intract from '../Image/intract.png';
-import community from '../Image/community.jpg';
+import community from '../Image/community.png';
+import best from '../Image/best.png'
 import ExpertComponent from "../components/Expert/expert.component";
 import ReviewPost from "../components/Review/ReviewPoster.component";
 
@@ -17,10 +18,10 @@ const HomePage = ()=>{
     return(
         <>
             <div className="flex gap-7 flex-col">
-                <div className="flex flex-col md:flex-row-reverse md:justify-between md:container md:mx-auto md:px-10 md:mt-14">
+                <div className="flex flex-col md:flex-row-reverse md:justify-between md:container md:mx-auto md:px-10 md:mt-10">
                     <div className="w-full h-full">
-                        <div className="p-10">
-                            <img src={img} alt="hometheme" className="w-full h-full" />
+                        <div className="px-20">
+                            <img src={img} alt="hometheme" className="w-full h-full rounded-full" />
                         </div>                   
                     </div>
                     <div className="flex flex-col gap-4">
@@ -119,7 +120,7 @@ const HomePage = ()=>{
                         </div>
                         <div className="flex gap-3 ml-5 justify-center items-center">
                             <div className="flex justify-center items-center w-40 h-24">
-                                <img src={Learn} alt="Learn" className="w-full h-full rounded-md bg-white"/>
+                                <img src={best} alt="Learn" className="w-full h-full rounded-md bg-white"/>
                             </div>
                             <div className="flex flex-col gap-1 w-3/4 my-3">
                                 <h3 className="text-2xl text-start md:font-bold">Intract With The Best</h3>
