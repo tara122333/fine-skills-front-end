@@ -19,15 +19,20 @@ const HomePage = ()=>{
         <>
             <div className="flex gap-7 flex-col">
                 <div className="flex flex-col md:flex-row-reverse md:justify-between md:container md:mx-auto md:px-10 md:mt-10">
-                    <div className="w-full h-full">
+                    <div className="w-1/2 h-full">
                         <div className="px-20">
-                            <img src={img} alt="hometheme" className="w-full h-full rounded-full" />
+                            <img src={img} alt="hometheme" className="w-full h-full rounded-2xl" />
                         </div>                   
                     </div>
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-4 w-1/2">
                         {/* bottom */}
                         <div className="flex flex-col">
-                            <h1 className="text-3xl font-bold text-center my-2 md:text-4xl lg:text-6xl md:my-5 mb-3 md:mb-7">India's Biggest Learning and Exploring <span className="text-tara-1">Youth</span> platform</h1>
+                            <h1 className="text-3xl font-bold text-center my-2 md:text-4xl lg:text-6xl md:my-5 mb-3 md:mb-7">
+                                {/* <h1 className="mb-4">India's Biggest</h1>
+                                <span className="text-tara-1 my-5"> Youth </span> 
+                                <span>Platform</span> */}
+                                We are the Community of Learns's and Exports
+                            </h1>
                             <span className="text-xl font-bold text-start ml-5 md:text-2xl">Learn from experts and network through Workshops,</span>
                             <span className="text-xl font-bold text-start ml-5 md:text-2xl">Join clubs and learn real life skills,</span>
                             <span className="text-xl font-bold text-start ml-5 md:text-2xl">Hang out on our discord server to make new friends and have fun :)</span>
@@ -36,13 +41,13 @@ const HomePage = ()=>{
                             <a href=" https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2" target="_blank" className="w-full bg-tara-0 rounded-full">
                                 <div className="flex gap-4 px-3 py-2 justify-center items-center">
                                     <BsWhatsapp  className="text-tara-1 text-xl"/>
-                                    <span className="text-tara-1 text-lg">join Whats App</span>
+                                    <span className="text-tara-1 text-lg">Join WhatsApp</span>
                                 </div>
                             </a>
                             <a href="https://discord.gg/kJESc7gA" target="_blank" className="w-full bg-tara-0 rounded-full cursor-pointer">
                                 <div className="flex gap-4 px-3 py-2 justify-center items-center">
                                     <FaDiscord  className="text-tara-1 text-xl"/>
-                                    <span className="text-tara-1 text-lg">join Discord</span>
+                                    <span className="text-tara-1 text-lg">Join Discord</span>
                                 </div>
                             </a>
                         </div>
