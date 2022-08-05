@@ -1,7 +1,7 @@
 import React from "react";
 import {BsWhatsapp} from 'react-icons/bs';
 import {FaDiscord} from 'react-icons/fa';
-import img from '../Image/home.png';
+import img from '../Image/home.jpeg';
 import Explore from '../Image/explore.png';
 import {Link} from 'react-router-dom';
 import Learn from '../Image/learning.jpg';
@@ -32,13 +32,13 @@ const HomePage = ()=>{
                             <span className="text-xl font-bold text-start ml-5 md:text-2xl">Hang out on our discord server to make new friends and have fun :)</span>
                         </div>
                         <div className="w-full flex gap-3 px-2 md:px-0 md:my-5">
-                            <a href="https://www.google.com" className="w-full bg-tara-0 rounded-full">
+                            <a href=" https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2" className="w-full bg-tara-0 rounded-full">
                                 <div className="flex gap-4 px-3 py-2 justify-center items-center">
                                     <BsWhatsapp  className="text-tara-1 text-xl"/>
                                     <span className="text-tara-1 text-lg">join Whats App</span>
                                 </div>
                             </a>
-                            <a href={"https://www.google.com"} className="w-full bg-tara-0 rounded-full cursor-pointer">
+                            <a href="https://t.me/fine_skills" className="w-full bg-tara-0 rounded-full cursor-pointer">
                                 <div className="flex gap-4 px-3 py-2 justify-center items-center">
                                     <FaDiscord  className="text-tara-1 text-xl"/>
                                     <span className="text-tara-1 text-lg">join Discord</span>
