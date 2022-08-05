@@ -20,7 +20,7 @@ const HomePage = ()=>{
                 <div className="flex flex-col md:flex-row-reverse md:justify-between md:container md:mx-auto md:px-10 md:mt-14">
                     <div className="w-full h-full">
                         <div className="p-10">
-                            <img src="https://bootstrapmade.com/demo/templates/Arsha/assets/img/hero-img.png" alt="hometheme" className="w-full h-full animate-tara" />
+                            <img src={img} alt="hometheme" className="w-full h-full animate-tara" />
                         </div>                   
                     </div>
                     <div className="flex flex-col gap-4">
