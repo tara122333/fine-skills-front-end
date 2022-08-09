@@ -4,10 +4,32 @@ import {AiOutlineUser} from 'react-icons/ai';
 import {RiLockPasswordLine} from 'react-icons/ri';
 import {MdFacebook} from 'react-icons/md';
 import {AiFillTwitterCircle,AiFillGoogleCircle} from 'react-icons/ai';
+// import axios from "axios";
 
 const Login = ({onClose}) =>{
     let [showMySignupModel,setshowMySignupModel] = useState(false);
     const handleOnClose = () => setshowMySignupModel(false);
+
+    const Gmailbtn = async () => {
+                try {
+                    console.log("Hiii");
+                    let response = await fetch('/auth/google',{
+                            method:"GET",
+                            headers:{
+                                "Content-Type" : "application/json"
+                            },
+                            body : JSON.stringify()
+                    });
+                    console.log(response);
+                    if(response.statusText === 'OK'){
+                        localStorage.setItem('token',response.data.token);
+                    }
+                    
+                } catch (e) {
+                    console.log(e)
+                }
+            }
+
     return(
         <>
             <div className="flex flex-col gap-3 md:gap-6 justify-center items-center w-full md:w-96 px-5 pb-4 md:pb-5">
@@ -40,9 +62,9 @@ const Login = ({onClose}) =>{
                     <span className="text-gray-500 font-medium">Or Login With</span>
                 </div>
                 <div className="flex justify-center items-center gap-3">
-                    <span className="text-4xl md:text-5xl cursor-pointer bg-tara-0 text-tara-1 rounded-full"><AiFillGoogleCircle /></span>
-                    <span className="text-4xl md:text-5xl cursor-pointer bg-tara-0 text-tara-1 rounded-full"><MdFacebook /></span>
-                    <span className="text-4xl md:text-5xl cursor-pointer bg-tara-0 text-tara-1 rounded-full"><AiFillTwitterCircle /></span>
+                    <button className="text-4xl md:text-5xl cursor-pointer bg-tara-0 text-tara-1 rounded-full" onClick={Gmailbtn}><AiFillGoogleCircle /></button>
+                    <button className="text-4xl md:text-5xl cursor-pointer bg-tara-0 text-tara-1 rounded-full"><MdFacebook /></button>
+                    <button className="text-4xl md:text-5xl cursor-pointer bg-tara-0 text-tara-1 rounded-full"><AiFillTwitterCircle /></button>
                 </div>
                 <div className="w-full flex justify-center">
                     <span className="text-gray-500 font-medium">Or Sign Up With</span>
