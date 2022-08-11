@@ -5,7 +5,7 @@ const ReviewPost = (props) =>{
         <>
             <div className="flex flex-col gap-3 justify-center items-center border-2 border-gray-300 py-5 px-2 rounded-lg bg-purple-100">
                 <div className="w-40 h-40 md:w-48 md:h-48">
-                    <img src={props.img} className="w-full h-full rounded-full" />
+                    <img src={props.img} className="w-full h-full rounded-full"/>
                 </div>
                 <div className="flex flex-col gap-3 px-3">
                     <h1 className="font-bold text-2xl text-center font-mono">{props.name}</h1>
