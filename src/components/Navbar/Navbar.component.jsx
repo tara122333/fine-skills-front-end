@@ -17,6 +17,9 @@ const Navbar = ()=>{
             name:"Event", link:"/event"
         },
         {
+            name:"Course", link:"/course"
+        },
+        {
             name:"About", link:"/about"
         },
         {
