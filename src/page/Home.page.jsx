@@ -11,6 +11,7 @@ import community from '../Image/community.png';
 import best from '../Image/best.png'
 import ExpertComponent from "../components/Expert/expert.component";
 import ReviewPost from "../components/Review/ReviewPoster.component";
+import viru from '../Image/viru.jpeg';
 
 
 
@@ -44,7 +45,7 @@ const HomePage = ()=>{
                                     <span className="text-tara-1 text-lg">Join WhatsApp</span>
                                 </div>
                             </a>
-                            <a href="https://discord.gg/kJESc7gA" target="_blank" className="w-full bg-tara-0 rounded-full cursor-pointer">
+                            <a href=" https://discord.gg/kJESc7gA" target="_blank" className="w-full bg-tara-0 rounded-full cursor-pointer">
                                 <div className="flex gap-4 px-3 py-2 justify-center items-center">
                                     <FaDiscord  className="text-tara-1 text-xl"/>
                                     <span className="text-tara-1 text-lg">Join Discord</span>
@@ -146,7 +147,7 @@ const HomePage = ()=>{
                     <h3 className="text-3xl text-center font-bold text-tara-0">Learners's Review</h3>
                     <div className="grid grid-cols-1 gap-3 px-3 md:grid-cols-2 lg:grid-cols-3 my-2 md:my-5 md:gap-6">
                         <ReviewPost img="https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg" name="Tara Chand Kumawat"/>
-                        <ReviewPost img="https://media-exp1.licdn.com/dms/image/C4D03AQGysTRD4Iw8OQ/profile-displayphoto-shrink_800_800/0/1658065419868?e=1665014400&v=beta&t=c0Hf1kAHsxEd3D8OWYTX7UDFcXxzt44esQyhCN3Y3-U" name="Virendra Tiwari"/>
+                        <ReviewPost img={viru} name="Virendra Tiwari"/>
                         <ReviewPost img="https://media-exp1.licdn.com/dms/image/C4D03AQEGP1vPuIyDsA/profile-displayphoto-shrink_800_800/0/1659182274287?e=1665014400&v=beta&t=LEzMQR4VmzuJNQklb7XyeSG29S4FEJbQP3j9spNR5E0" name="Harshit Bhardwaj"/>
                         
                     </div>
