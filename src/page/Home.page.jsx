@@ -19,19 +19,16 @@ const HomePage = ()=>{
     return(
         <>
             <div className="flex gap-7 flex-col">
-                <div className="flex flex-col md:flex-row-reverse md:justify-between md:container md:mx-auto md:px-10 md:mt-10">
+                <div className="flex flex-col md:flex-row-reverse md:justify-between md:container md:mx-auto md:px-10 md:mt-10 my-10 overflow-hidden">
                     <div className="w-full md:w-1/2 h-full relative">
-                        <div className="px-3 py-8 md:px-20 md:py-5">
+                        <div className="px-3 py-2 lg:py-8 md:px-20 md:py-5">
                             <img src={img} alt="hometheme" className="w-full h-full" />
                         </div>                   
                     </div>
                     <div className="flex flex-col gap-4 md:gap-8 w-full md:w-1/2 justify-center items-center">
                         {/* bottom */}
-                        <div className="flex flex-col">
-                            <h1 className="text-3xl font-bold text-center my-2 md:text-4xl lg:text-6xl md:my-5 mb-3 md:mb-7">
-                                
-                            </h1>
-                            <div className="flex flex-col justify-center items-center w-full md:my-10 gap-3 md:gap-8">
+                        <div className="flex flex-col my-5">
+                            <div className="flex flex-col justify-center items-center w-full md:my-10 gap-3 md:gap-8 my-4">
                                     <div className="flex gap-2 md:gap-5">
                                         <span className="text-3xl font-semibold md:text-4xl lg:text-6xl">We are the</span>
                                         <span className="text-3xl font-bold md:text-4xl lg:text-6xl text-tara-orange">Community</span>
@@ -43,19 +40,19 @@ const HomePage = ()=>{
                                         <span className="text-3xl font-bold md:text-4xl lg:text-6xl text-tara-orange">Experts</span>
                                     </div>
                                 </div>
-                            <span className="text-xl text-start ml-5 md:text-xl">Learn from experts and network through Workshops,</span>
-                            <span className="text-xl text-start ml-5 md:text-xl">Join clubs and learn real life skills,</span>
-                            <span className="text-xl text-start ml-5 md:text-xl">Hang out on our discord server to make new friends and have fun :)</span>
+                            <span className="text-base text-start ml-5 md:text-xl">Learn from experts and network through Workshops,</span>
+                            <span className="text-base text-start ml-5 md:text-xl">Join clubs and learn real life skills,</span>
+                            <span className="text-base text-start ml-5 md:text-xl">Hang out on our discord server to make new friends and have fun :)</span>
                         </div>
                         <div className="w-full flex flex-col gap-3 px-2 md:px-0 md:my-5 md:flex-row">
                             <a href=" https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2" target="_blank" className="w-full bg-tara-0 rounded-full">
-                                <div className="flex gap-4 px-3 py-2 justify-center items-center">
+                                <div className="flex  justify-center items-center gap-3 md:gap-6 bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow">
                                     <BsWhatsapp  className="text-tara-1 text-xl"/>
                                     <span className="text-tara-1 text-lg">Join WhatsApp</span>
                                 </div>
                             </a>
                             <a href=" https://discord.gg/kJESc7gA" target="_blank" className="w-full bg-tara-0 rounded-full cursor-pointer">
-                                <div className="flex gap-4 px-3 py-2 justify-center items-center">
+                                <div className="bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow flex justify-center items-center gap-3 md:gap-6 ">
                                     <FaDiscord  className="text-tara-1 text-xl"/>
                                     <span className="text-tara-1 text-lg">Join Discord</span>
                                 </div>

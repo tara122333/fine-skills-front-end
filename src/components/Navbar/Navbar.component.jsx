@@ -20,7 +20,7 @@ const Navbar = ()=>{
     const handleOnClose = () => setShowMyModel(false);
     return(
         <>
-            <div className="w-full fixed top-0 left-0 bg-white">
+            <div className="w-full fixed top-0 left-0 bg-white z-30">
                 <div className='md:flex items-center justify-between py-3 px-7 md:py-6 md:px-16'>
                     <div>
                         <Link to="/">
@@ -45,7 +45,7 @@ const Navbar = ()=>{
                                 </div>
                             </button>
                         </ul>
-                        <div className='flex md:hidden'>
+                        <div className='flex md:hidden overflow-hidden bg-white'>
                             <NavbarMenu />
                         </div>
                     </div>
