@@ -1,6 +1,7 @@
 import React from "react";
 import {BsWhatsapp} from 'react-icons/bs';
 import {FaDiscord} from 'react-icons/fa';
+import {RiSearchLine} from 'react-icons/ri'
 import img from '../Image/home.png';
 import Explore from '../Image/explore.png';
 import {Link} from 'react-router-dom';
@@ -12,7 +13,7 @@ import best from '../Image/best.png'
 import ExpertComponent from "../components/Expert/expert.component";
 import ReviewPost from "../components/Review/ReviewPoster.component";
 import viru from '../Image/viru.jpeg';
-
+import Fire from '../Image/fire.png';
 
 
 const HomePage = ()=>{
@@ -63,13 +64,41 @@ const HomePage = ()=>{
 
 
 
+                <div className="bg-purple-100 w-full h-full flex justify-center items-center py-10">
 
+                    <div className="flex flex-col gap-14 md:gap-5 lg:gap-6 my-5 lg:my-80 w-full">
+                            <h3 className="text-4xl ml-5 text-center font-bold md:text-4xl lg:text-5xl text-tara-black">Explore Workshops</h3>
+                            {/* <p className="text-xl ml-5 text-start lg:px-10">College & bookish knowledge doesn’t prepare you for real-world and modern careers. Growth School, co-creates programs with top industry professionals who can help you get years ahead in your career</p> */}
+                            <div className="flex flex-col lg:flex-row-reverse justify-between items-center ">
+                                <div>
+                                    <div className="flex flex-col gap-2 px-5">
+                                        <span className="px-3 py-2 font-semibold text-lg bg-tara-black rounded-lg text-white w-48 text-center">Over 1M + Content</span>
+                                        <span className="text-2xl">Search & Get Skilled with Our</span>
+                                        <p className="font-semibold text-4xl">Top Notch Speakers</p>
+                                        <p className="font-light font-base text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus ea fugit eius nostrum quam molestiae provident eligendi obcaecati.</p>
+                                        <div>
+                                            <input type="search" placeholder="I am Looking For" className="outline-none px-5 py-5 w-full focus:outline-none"/>
+                                            <button className="px-5 py-5 w-full bg-gradient-to-r from-tara-yellow to-tara-orange hover:bg-gradient-to-r hover:shadow-md hover:from-tara-black hover:to-tara-black">
+                                                <span className="text-white text-xl flex gap-2 justify-center items-center">
+                                                    <RiSearchLine />
+                                                    Search
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
+                                <div className="hidden md:flex h-96 w-96 relative top-20">
+                                    <img src={Fire} alt="" className="w-full h-full scale-150" />
+                                </div>
+                                
+                            </div>
+                    </div>
+                </div>
 
                 <div className="flex gap-4 flex-col justify-center items-center md:my-7 md:container md:mx-auto md:px-10">
-                    <div className="flex flex-col gap-3">
-                        <h3 className="text-3xl ml-5 text-start font-bold md:text-4xl">Education that gets you industry-ready</h3>
-                        <p className="text-xl ml-5 text-start">College & bookish knowledge doesn’t prepare you for real-world and modern careers. Growth School, co-creates programs with top industry professionals who can help you get years ahead in your career</p>
-                    </div>
+                    
                     <div className="flex flex-col mt-4 w-full gap-4">
                         <h3 className="font-bold text-3xl text-tara-0 text-center">UPCOMMING WORKSHOP</h3>
                         <div className="bg-tara-0 w-full flex justify-center items-center flex-col md:flex-row gap-4 py-4">
