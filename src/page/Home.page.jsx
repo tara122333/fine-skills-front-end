@@ -46,13 +46,13 @@ const HomePage = ()=>{
                         </div>
                         <div className="w-full flex flex-col gap-3 px-2 md:px-0 md:my-5 md:flex-row">
                             <a href=" https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2" target="_blank" className="w-full bg-tara-0 rounded-full">
-                                <div className="flex  justify-center items-center gap-3 md:gap-6 bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r hover:from-tara-orange hover:to-tara-yellow">
+                                <div className="flex  justify-center items-center gap-3 md:gap-6 bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white hover:shadow-md hover:bg-gradient-to-r hover:from-tara-black hover:to-tara-black">
                                     <BsWhatsapp  className="text-tara-1 text-xl"/>
                                     <span className="text-tara-1 text-lg">Join WhatsApp</span>
                                 </div>
                             </a>
                             <a href=" https://discord.gg/kJESc7gA" target="_blank" className="w-full bg-tara-0 rounded-full cursor-pointer">
-                                <div className="bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow flex justify-center items-center gap-3 md:gap-6 hover:bg-gradient-to-r hover:from-tara-orange hover:to-tara-yellow">
+                                <div className="bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white hover:shadow-md flex justify-center items-center gap-3 md:gap-6 hover:bg-gradient-to-r hover:from-tara-black hover:to-tara-black">
                                     <FaDiscord  className="text-tara-1 text-xl"/>
                                     <span className="text-tara-1 text-lg">Join Discord</span>
                                 </div>
