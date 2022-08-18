@@ -20,7 +20,7 @@ const HomePage = ()=>{
     return(
         <>
             <div className="flex gap-7 flex-col">
-                <div className="flex flex-col md:flex-row-reverse md:justify-between overflow-hidden lg:items-center lg:container lg:mx-auto lg:px-10 lg:h-full py-10 lg:py-16">
+                <div className="flex flex-col md:flex-row-reverse md:justify-between overflow-hidden lg:items-center lg:container lg:mx-auto lg:px-10 lg:h-full py-10 lg:py-16 lg:my-10">
                     <div className="w-full md:w-1/2 h-full">
                         <div className="px-3 py-2 md:px-20 ">
                             <img src={img} alt="hometheme" className="w-full h-full"/>
@@ -64,12 +64,11 @@ const HomePage = ()=>{
 
 
 
-                <div className="bg-purple-100 w-full h-full flex justify-center items-center py-10 lg:my-40">
+                <div className="bg-purple-100 w-full h-full flex justify-center items-center py-10 lg:pt-20 lg:px-10">
 
                     <div className="flex flex-col gap-14 md:gap-5 lg:gap-6 my-5 w-full">
-                            <h3 className="text-4xl ml-5 text-center font-bold md:text-4xl lg:text-5xl text-tara-orange">Explore Workshops</h3>
-                            {/* <p className="text-xl ml-5 text-start lg:px-10">College & bookish knowledge doesn’t prepare you for real-world and modern careers. Growth School, co-creates programs with top industry professionals who can help you get years ahead in your career</p> */}
-                            <div className="flex flex-col lg:flex-row-reverse justify-between items-center lg:my-32 h-full">
+                            <h3 className="text-4xl text-center font-bold md:text-4xl lg:text-5xl text-tara-orange">Explore Workshops</h3>
+                            <div className="flex flex-col lg:flex-row-reverse justify-between items-center h-full">
                                 <div>
                                     <div className="flex flex-col gap-2 px-5">
                                         <span className="px-3 py-2 font-semibold text-lg bg-tara-black rounded-lg text-white w-60 text-center">Search Over 1M + Content</span>
@@ -101,8 +100,8 @@ const HomePage = ()=>{
                                         </div>
                                     </div>
                                 </div>
-                                <div className="hidden md:flex h-full w-full relative w-1/2">
-                                    <img src={Fire} alt="" className="w-full h-full" />
+                                <div className="hidden md:flex h-full relative w-1/2">
+                                    <img src={Fire} alt="" className="w-full" />
                                 </div>
                             </div>
                     </div>
