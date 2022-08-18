@@ -20,7 +20,7 @@ const HomePage = ()=>{
         <>
             <div className="flex gap-7 flex-col">
                 <div className="flex flex-col md:flex-row-reverse md:justify-between md:container md:mx-auto md:px-10 md:mt-10">
-                    <div className="w-full md:w-1/2 h-full">
+                    <div className="w-full md:w-1/2 h-full relative">
                         <div className="px-3 py-8 md:px-20 md:py-5">
                             <img src={img} alt="hometheme" className="w-full h-full" />
                         </div>                   
@@ -29,14 +29,23 @@ const HomePage = ()=>{
                         {/* bottom */}
                         <div className="flex flex-col">
                             <h1 className="text-3xl font-bold text-center my-2 md:text-4xl lg:text-6xl md:my-5 mb-3 md:mb-7">
-                                {/* <h1 className="mb-4">India's Biggest</h1>
-                                <span className="text-tara-1 my-5"> Youth </span> 
-                                <span>Platform</span> */}
-                                We are the Community of Learner's and Experts
+                                
                             </h1>
-                            <span className="text-xl font-semibold text-start ml-5 md:text-xl">Learn from experts and network through Workshops,</span>
-                            <span className="text-xl font-semibold text-start ml-5 md:text-xl">Join clubs and learn real life skills,</span>
-                            <span className="text-xl font-semibold text-start ml-5 md:text-xl">Hang out on our discord server to make new friends and have fun :)</span>
+                            <div className="flex flex-col justify-center items-center w-full md:my-10 gap-3 md:gap-8">
+                                    <div className="flex gap-2 md:gap-5">
+                                        <span className="text-3xl font-semibold md:text-4xl lg:text-6xl">We are the</span>
+                                        <span className="text-3xl font-bold md:text-4xl lg:text-6xl text-tara-orange">Community</span>
+                                        <span className="text-3xl font-semibold md:text-4xl lg:text-6xl">of</span>
+                                    </div>
+                                    <div className="flex gap-3 md:gap-6">
+                                        <span className="text-3xl font-bold md:text-4xl lg:text-6xl text-tara-orange">Learners</span>
+                                        <span className="text-3xl font-semibold md:text-4xl lg:text-6xl">and</span>
+                                        <span className="text-3xl font-bold md:text-4xl lg:text-6xl text-tara-orange">Experts</span>
+                                    </div>
+                                </div>
+                            <span className="text-xl text-start ml-5 md:text-xl">Learn from experts and network through Workshops,</span>
+                            <span className="text-xl text-start ml-5 md:text-xl">Join clubs and learn real life skills,</span>
+                            <span className="text-xl text-start ml-5 md:text-xl">Hang out on our discord server to make new friends and have fun :)</span>
                         </div>
                         <div className="w-full flex flex-col gap-3 px-2 md:px-0 md:my-5 md:flex-row">
                             <a href=" https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2" target="_blank" className="w-full bg-tara-0 rounded-full">

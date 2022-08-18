@@ -8,10 +8,15 @@ module.exports = {
           'tara': 'bounce 5s linear infinite',
         },
         colors: {
-          "tara" : {
-            0 : "#630944",
-            1 : "#ffe2ab",
-          }
+          tara: {
+            'yellow' : "#F5C32C",
+            'orange' : "#FCA61F",
+            'black' : "#242D49",
+            'gray' : "#788097",
+            'blueCard' : "#DDF8FE",
+            'purple': "#D2EEFF",
+            'orangeCard': "#fca61f"
+          },
         },
       },
   },
