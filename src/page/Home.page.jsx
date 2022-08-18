@@ -1,5 +1,5 @@
 import React from "react";
-import {BsWhatsapp} from 'react-icons/bs';
+import {BsWhatsapp,BsChevronDown} from 'react-icons/bs';
 import {FaDiscord} from 'react-icons/fa';
 import {RiSearchLine} from 'react-icons/ri'
 import img from '../Image/home.png';
@@ -12,21 +12,21 @@ import community from '../Image/community.png';
 import best from '../Image/best.png'
 import ExpertComponent from "../components/Expert/expert.component";
 import ReviewPost from "../components/Review/ReviewPoster.component";
-import viru from '../Image/viru.jpeg';
-import Fire from '../Image/fire.png';
+// import viru from '../Image/viru.jpeg';
+import Fire from '../Image/search.png';
 
 
 const HomePage = ()=>{
     return(
         <>
             <div className="flex gap-7 flex-col">
-                <div className="flex flex-col md:flex-row-reverse md:justify-between md:container md:mx-auto md:px-10 md:mt-10 my-5 md:my-16 overflow-hidden">
-                    <div className="w-full md:w-1/2 h-full relative">
-                        <div className="px-3 py-2 lg:py-8 md:px-20 md:py-5">
-                            <img src={img} alt="hometheme" className="w-full h-full" />
+                <div className="flex flex-col md:flex-row-reverse md:justify-between overflow-hidden lg:items-center lg:container lg:mx-auto lg:px-10 lg:h-full py-10 lg:py-16">
+                    <div className="w-full md:w-1/2 h-full">
+                        <div className="px-3 py-2 md:px-20 ">
+                            <img src={img} alt="hometheme" className="w-full h-full"/>
                         </div>                   
                     </div>
-                    <div className="flex flex-col gap-4 md:gap-8 w-full md:w-1/2 justify-center items-center">
+                    <div className="flex flex-col gap-4 md:gap-8 w-full h-full md:w-1/2 justify-center items-center">
                         {/* bottom */}
                         <div className="flex flex-col my-5">
                             <div className="flex flex-col justify-center items-center w-full md:my-10 gap-3 md:gap-8 my-4">
@@ -64,19 +64,19 @@ const HomePage = ()=>{
 
 
 
-                <div className="bg-purple-100 w-full h-full flex justify-center items-center py-10">
+                <div className="bg-purple-100 w-full h-full flex justify-center items-center py-10 lg:my-40">
 
-                    <div className="flex flex-col gap-14 md:gap-5 lg:gap-6 my-5 lg:my-80 w-full">
-                            <h3 className="text-4xl ml-5 text-center font-bold md:text-4xl lg:text-5xl text-tara-black">Explore Workshops</h3>
+                    <div className="flex flex-col gap-14 md:gap-5 lg:gap-6 my-5 w-full">
+                            <h3 className="text-4xl ml-5 text-center font-bold md:text-4xl lg:text-5xl text-tara-orange">Explore Workshops</h3>
                             {/* <p className="text-xl ml-5 text-start lg:px-10">College & bookish knowledge doesn’t prepare you for real-world and modern careers. Growth School, co-creates programs with top industry professionals who can help you get years ahead in your career</p> */}
-                            <div className="flex flex-col lg:flex-row-reverse justify-between items-center ">
+                            <div className="flex flex-col lg:flex-row-reverse justify-between items-center lg:my-32 h-full">
                                 <div>
                                     <div className="flex flex-col gap-2 px-5">
-                                        <span className="px-3 py-2 font-semibold text-lg bg-tara-black rounded-lg text-white w-48 text-center">Over 1M + Content</span>
+                                        <span className="px-3 py-2 font-semibold text-lg bg-tara-black rounded-lg text-white w-60 text-center">Search Over 1M + Content</span>
                                         <span className="text-2xl">Search & Get Skilled with Our</span>
                                         <p className="font-semibold text-4xl">Top Notch Speakers</p>
                                         <p className="font-light font-base text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus ea fugit eius nostrum quam molestiae provident eligendi obcaecati.</p>
-                                        <div>
+                                        <div className="lg:hidden">
                                             <input type="search" placeholder="I am Looking For" className="outline-none px-5 py-5 w-full focus:outline-none"/>
                                             <button className="px-5 py-5 w-full bg-gradient-to-r from-tara-yellow to-tara-orange hover:bg-gradient-to-r hover:shadow-md hover:from-tara-black hover:to-tara-black">
                                                 <span className="text-white text-xl flex gap-2 justify-center items-center">
@@ -85,14 +85,25 @@ const HomePage = ()=>{
                                                 </span>
                                             </button>
                                         </div>
+                                        <div className="hidden lg:flex py-2 px-3 bg-white gap-3 rounded shadow-2xl">
+                                            <div className="flex justify-center items-center w-4/5">
+                                                <input type="search" placeholder="I am Looking For" className="outline-none px-5 py-5 w-full focus:outline-none"/>
+                                                <span className="text-xl text-gray-500">
+                                                    <BsChevronDown />
+                                                </span>
+                                            </div>
+                                            <button className="px-5 rounded-sm w-1/5 bg-gradient-to-r from-tara-yellow to-tara-orange hover:bg-gradient-to-r hover:shadow-md hover:from-tara-black hover:to-tara-black">
+                                                <span className="text-white text-xl flex gap-2 justify-center items-center">
+                                                    <RiSearchLine />
+                                                    Search
+                                                </span>
+                                            </button>
+                                        </div>
                                     </div>
-
-                                    
                                 </div>
-                                <div className="hidden md:flex h-96 w-96 relative top-20">
-                                    <img src={Fire} alt="" className="w-full h-full scale-150" />
+                                <div className="hidden md:flex h-full w-full relative w-1/2">
+                                    <img src={Fire} alt="" className="w-full h-full" />
                                 </div>
-                                
                             </div>
                     </div>
                 </div>
