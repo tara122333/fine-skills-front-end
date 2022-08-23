@@ -21,7 +21,7 @@ const Navbar = ()=>{
     return(
         <>
             <div className="w-full fixed top-0 left-0 bg-white z-30">
-                <div className='md:flex items-center justify-between py-3 px-7 md:py-6 md:px-16'>
+                <div className='md:flex items-center justify-between py-2 px-7 md:py-4 md:px-16'>
                     <div>
                         <Link to="/">
                             <div className='font-bold text-2xl md:text-3xl cursor-pointer flex items-center'>

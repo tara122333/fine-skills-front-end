@@ -20,14 +20,57 @@ const HomePage = ()=>{
     return(
         <>
             <div className="flex gap-7 flex-col">
-                <div className="flex flex-col md:flex-row-reverse md:justify-between overflow-hidden lg:items-center lg:container lg:mx-auto lg:px-10 lg:h-full py-10 lg:py-10 lg:my-10 lg:mb-20">
+
+            <div className="bg-purple-100 w-full h-full flex justify-center items-center pt-10 lg:px-10">
+
+                <div className="flex flex-col gap-14 md:gap-5 lg:gap-6 w-full">
+                        <div className="flex flex-col lg:flex-row justify-between items-center h-full">
+                            <div>
+                                <div className="flex flex-col gap-2 px-5 lg:gap-4">
+                                    <span className="px-3 py-2 font-semibold text-lg bg-tara-black rounded-lg text-white w-60 text-center">Search Over 1M + Content</span>
+                                    <span className="text-2xl">Search & Get Skilled with Our</span>
+                                    <p className="font-semibold text-4xl">Top Notch Speakers</p>
+                                    <p className="font-light font-base text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus ea fugit eius nostrum quam molestiae provident eligendi obcaecati.</p>
+                                    <div className="lg:hidden">
+                                        <input type="search" placeholder="I am Looking For" className="outline-none px-5 py-5 w-full focus:outline-none"/>
+                                        <button className="px-5 py-5 w-full bg-gradient-to-r from-tara-yellow to-tara-orange hover:bg-gradient-to-r hover:shadow-md hover:from-tara-black hover:to-tara-black">
+                                            <span className="text-white text-xl flex gap-2 justify-center items-center">
+                                                <RiSearchLine />
+                                                Search
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div className="hidden lg:flex py-2 px-3 bg-white gap-3 rounded shadow-2xl">
+                                        <div className="flex justify-center items-center w-4/5">
+                                            <input type="search" placeholder="I am Looking For" className="outline-none px-5 py-5 w-full focus:outline-none"/>
+                                            <span className="text-xl text-gray-500">
+                                                <BsChevronDown />
+                                            </span>
+                                        </div>
+                                        <button className="px-5 rounded-sm w-1/5 bg-gradient-to-r from-tara-yellow to-tara-orange hover:bg-gradient-to-r hover:shadow-md hover:from-tara-black hover:to-tara-black">
+                                            <span className="text-white text-xl flex gap-2 justify-center items-center">
+                                                <RiSearchLine />
+                                                Search
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="hidden md:flex h-full relative w-1/2">
+                                <img src="https://amentotech.com/projects/workreap/wp-content/uploads/2021/03/user.png" alt="" className="w-full" />
+                            </div>
+                        </div>
+                </div>
+                </div>
+
+
+                {/* <div className="flex flex-col md:flex-row-reverse md:justify-between overflow-hidden lg:items-center lg:container lg:mx-auto lg:px-10 lg:h-full lg:mb-20">
                     <div className="w-full md:w-1/2 h-full">
-                        <div className="px-3 py-2 md:px-20 ">
-                            <img src={img} alt="hometheme" className="w-full h-full"/>
+                        <div className="px-3 py-2 md:px-20">
+                            <img src="https://amentotech.com/projects/workreap/wp-content/uploads/2021/03/img-01-1.jpg" alt="hometheme" className="w-full h-full"/>
                         </div>                   
                     </div>
                     <div className="flex flex-col gap-4 md:gap-8 w-full h-full md:w-1/2 justify-center items-center">
-                        {/* bottom */}
                         <div className="flex flex-col my-5">
                             <div className="flex flex-col justify-center items-center w-full md:my-10 gap-3 md:gap-8 my-4">
                                     <div className="flex gap-2 md:gap-5">
@@ -59,12 +102,14 @@ const HomePage = ()=>{
                                 </div>
                             </a>
                         </div>
+                        <div className="relative w-96 h-72 rounded-full bg-tara-orange blur-3xl -z-10 left-2/4 -top-5" style={{ background: "rgb(138 210 255)" }} />
+                        <div className="relative w-96 h-72 rounded-full bg-tara-purple blur-3xl -z-10 top-96 -left-96" style={{ background: "rgb(238 210 255)" }}></div>
                     </div>
-                </div>
+                </div> */}
 
 
 
-                <div className="bg-purple-100 w-full h-full flex justify-center items-center py-10 lg:pt-20 lg:px-10">
+                {/* <div className="bg-purple-100 w-full h-full flex justify-center items-center py-10 lg:pt-20 lg:px-10">
 
                     <div className="flex flex-col gap-14 md:gap-5 lg:gap-6 my-5 w-full">
                             <h3 className="text-4xl text-center font-bold md:text-4xl lg:text-5xl text-tara-orange">Explore Workshops</h3>
@@ -105,7 +150,7 @@ const HomePage = ()=>{
                                 </div>
                             </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="flex gap-4 flex-col justify-center items-center md:my-7 md:container md:mx-auto md:px-10">
                     
