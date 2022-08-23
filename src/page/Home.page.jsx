@@ -158,14 +158,8 @@ const HomePage = ()=>{
                         <h3 className="font-bold text-3xl text-tara-0 text-center">UPCOMMING WORKSHOP</h3>
                         <div className="bg-tara-0 w-full flex justify-center items-center flex-col md:flex-row gap-4 py-4">
                             {/* <WorkShopsCarouselPoster className="w-full h-full"/> */}
-                            <div className="h-72 w-full">
-                            <img src={Banner} alt="banner"  className="w-full h-full"/>
-                            </div>
-                            <div className="h-72 w-full">
-                                <img src={Banner} alt="banner"  className="w-full h-full"/>
-                            </div>
-                            <div className="h-72 w-full">
-                            <img src={Banner} alt="banner"  className="w-full h-full"/>
+                            <div className="lg:h-96 w-full">
+                            <img src={Banner} alt="banner"  className="w-full h-full rounded-lg"/>
                             </div>
                         </div>
                     </div>
