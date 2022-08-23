@@ -15,6 +15,8 @@ import ReviewPost from "../components/Review/ReviewPoster.component";
 // import viru from '../Image/viru.jpeg';
 import Fire from '../Image/search.png';
 
+import Service from "../components/Services";
+
 
 const HomePage = ()=>{
     return(
@@ -155,7 +157,7 @@ const HomePage = ()=>{
                 <div className="flex gap-4 flex-col justify-center items-center md:my-7 md:container md:mx-auto md:px-10">
                     
                     <div className="flex flex-col mt-4 w-full gap-4">
-                        <h3 className="font-bold text-3xl text-tara-0 text-center">UPCOMMING WORKSHOP</h3>
+                        <h3 className="font-bold text-3xl lg:text-5xl lg:my-5 text-tara-yellow text-center">UPCOMMING WORKSHOP</h3>
                         <div className="bg-tara-0 w-full flex justify-center items-center flex-col md:flex-row gap-4 py-4">
                             {/* <WorkShopsCarouselPoster className="w-full h-full"/> */}
                             <div className="lg:h-96 w-full">
@@ -165,7 +167,10 @@ const HomePage = ()=>{
                     </div>
                     <div className="py-3 cursor-pointer">
                         <Link to="/event">
-                            <button className="px-10 py-2 bg-tara-0 text-tara-1 rounded-full font-bold text-lg">Upcomming Workshops</button>
+                            {/* <button className="px-10 py-2 bg-tara-0 text-tara-1 rounded-full font-bold text-lg"></button> */}
+                            <button className="flex  justify-center items-center gap-3 md:gap-6 bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white hover:shadow-md hover:bg-gradient-to-r hover:from-tara-black hover:to-tara-black">
+                                    <span className="text-tara-1 text-lg">Upcomming Workshops</span>
+                                </button>
                         </Link>
                     </div>
                 </div>
@@ -173,52 +178,17 @@ const HomePage = ()=>{
             
 
 
-                <div className="flex flex-col my-5 md:flex-row justify-center items-center md:container md:mx-auto md:px-10">
-                    <div className="w-full">
-                        {/* image */}
-                        <img src={Explore} alt="exploretheme" className="h-full w-full"/>
-                    </div>
-                    <div className="flex flex-col my-4 gap-5">
-                        {/* some logo and desc */}
-                        <div className="flex gap-3 ml-5 justify-center items-center">
-                            <div className="flex justify-center items-center w-40 h-24">
-                                {/* <img src="" alt="" className="w-full h-full"/> */}
-                                <img src={intract} alt="intract" className="w-full h-full rounded-md bg-white" />
-                            </div>
-                            <div className="flex flex-col gap-1 w-3/4 my-3">
-                                <h3 className="text-2xl text-start md:font-bold">Learn From Top 1 %</h3>
-                                <p className="text-start text-lg">Attend Workshops & get a chane from the expert </p>
-                            </div>
-                        </div>
-                        <div className="flex gap-3 ml-5 justify-center items-center">
-                            <div className="flex justify-center items-center w-40 h-24">
-                                <img src={community} alt="community" className="w-full h-full  rounded-md bg-white"/>
-                            </div>
-                            <div className="flex flex-col gap-1 w-3/4 my-3">
-                                <h3 className="text-2xl text-start md:font-bold">Build Your Portfolio</h3>
-                                <p className="text-start text-lg">Enjoy the best of peer-led learning with tons of events while building lifelong relationships</p>
-                            </div>
-                        </div>
-                        <div className="flex gap-3 ml-5 justify-center items-center">
-                            <div className="flex justify-center items-center w-40 h-24">
-                                <img src={Learn} alt="Learn" className="w-full h-full rounded-md bg-white"/>
-                            </div>
-                            <div className="flex flex-col gap-1 w-3/4 my-3">
-                                <h3 className="text-2xl text-start md:font-bold">Learn by Doing</h3>
-                                <p className="text-start text-lg">Actionable programs to offset the Pareto Principle; you will execute projects using what you learned</p>
-                            </div>
-                        </div>
-                        <div className="flex gap-3 ml-5 justify-center items-center">
-                            <div className="flex justify-center items-center w-40 h-24">
-                                <img src={best} alt="Learn" className="w-full h-full rounded-md bg-white"/>
-                            </div>
-                            <div className="flex flex-col gap-1 w-3/4 my-3">
-                                <h3 className="text-2xl text-start md:font-bold">Join Workshops</h3>
-                                <p className="text-start text-lg">Actionable programs to offset the Pareto Principle; you will execute projects using what you learned</p>
-                            </div>
-                        </div>
+                <div className="w-full md:px-10 lg:my-12 lg:mb-64">
+                    <div>
+                        <Service />
                     </div>
                 </div>
+
+
+
+
+
+
                 <div>
                     <div className="flex flex-col mt-4 w-full gap-4">
                             <h3 className="font-bold text-3xl text-tara-0 text-center">Expert From</h3>
