@@ -11,14 +11,14 @@ const Service = () => {
 
   return (
     <>
-    <div id='services' className='w-full'>
+    <div id='services' className='w-full px-5 lg:px-0 mb-96 pb-96 lg:pb-0 lg:mb-0'>
         <div className='flex flex-col lg:flex-row w-full' >
             <div className='flex flex-col h-full w-full lg:w-1/2'>
-                <div className='flex flex-col gap-3 py-12'>
+                <div className='flex flex-col gap-3 lg:py-12 '>
                     <span className='text-4xl md:text-5xl lg:text-6xl'>What we</span>
                     <span className='text-6xl text-tara-orange md:text-6xl lg:text-7xl'>Offer</span>
                 </div>
-                <div className='my-5 pr-5'>
+                <div className='my-1 lg:my-5  pr-5'>
                     <span className='text-gray-600'>Become a family of india's biggest learners & experts community </span>
                 </div>
                 <div className='my-8'>
@@ -87,8 +87,8 @@ const Service = () => {
             >
             <Card
                 emoji={img}
-                heading={"Design"}
-                detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+                heading={"Opportunity"}
+                detail={"Actionable programs to offset the Pareto Principle; you will execute projects using what you learned"}
                 className="relative"
             />
             </motion.div>
@@ -101,8 +101,8 @@ const Service = () => {
             >
             <Card
                 emoji={img}
-                heading={"Developer"}
-                detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+                heading={"Network"}
+                detail={"Enjoy the best of peer-led learning with tons of events while building lifelong relationships"}
                 className="relative"
             />
             </motion.div>
@@ -115,9 +115,9 @@ const Service = () => {
             >
             <Card
                 emoji={img}
-                heading={"UI/UX"}
+                heading={"Experts"}
                 detail={
-                "Lorem ispum dummy text are usually use in section where we need some random text"
+                "Attend Workshops & get a chane from the expert"
                 }
                 color="rgba(252, 166, 31, 0.45)"
                 className="relative"
