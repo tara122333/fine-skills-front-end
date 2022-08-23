@@ -8,10 +8,6 @@ const Club = () => {
         <Categores />
         <Categores />
         <Categores />
-        <Categores />
-        <Categores />
-        <Categores />
-        <Categores />
     </div>
   )
 }
