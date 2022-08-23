@@ -11,8 +11,8 @@ const Service = () => {
 
   return (
     <>
-    <div id='services' className='w-full px-5 lg:px-0 mb-96 pb-96 lg:pb-0 lg:mb-0'>
-        <div className='flex flex-col lg:flex-row w-full' >
+    <div id='services' className='w-full flex px-5 mb-96 pb-96 lg:pb-0 lg:mb-0 justify-center items-center lg:container lg:mx-auto lg:px-10'>
+        <div className='flex flex-col lg:flex-row w-full justify-center' >
             <div className='flex flex-col h-full w-full lg:w-1/2'>
                 <div className='flex flex-col gap-3 lg:py-12 '>
                     <span className='text-4xl md:text-5xl lg:text-6xl'>What we</span>
