@@ -1,16 +1,23 @@
 import React from 'react'
 import {BsCameraReels} from 'react-icons/bs'
 
-const Categores = () => {
+const Categores = (props) => {
   return (
     <div className='flip-card'>
       <div className='flip-card-inner'>
         <div className='flex flex-col justify-center items-start border-2 border-tara-orange px-3 py-12 mx-3 cursor-pointer gap-1 rounded-lg flip-card-front'>
           
             <BsCameraReels  className='text-4xl text-tara-yellow my-2 after:text-tara-orange'/>
-            <h2 className='text-tara-black text-xl font-bold after:text-white'>StartUp Club</h2>
-            <p className='text-gray-400 text-sm'>3 Listings</p>
-            <h3 className='text-gray-500 text-4xl my-2'>StartUp</h3>
+            <h2 className='text-tara-black text-xl font-bold after:text-white'>
+              {
+                props.head
+              }
+            </h2>
+            <h3 className='text-gray-500 text-4xl my-2'>
+              {
+                props.title
+              }
+            </h3>
         </div>
         <div class="flip-card-back rounded-lg flex justify-center items-center flex-col gap-6 cursor-pointer">
           <h1 className='text-2xl font-bold text-tara-orange'>Join Club</h1> 
