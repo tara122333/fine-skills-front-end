@@ -24,7 +24,7 @@ const HomePage = ()=>{
         <>
             <div className="flex gap-7 flex-col">
 
-            <div className="bg-purple-100 w-full h-full flex justify-center items-center pt-10 lg:px-10 container mx-auto lg:w-[1500px]">
+            <div className="bg-tara-purple w-full h-full flex justify-center items-center pt-10 lg:px-10 container mx-auto lg:w-[1500px]">
 
                 <div className="flex flex-col gap-14 md:gap-5 lg:gap-6 w-full">
                         <div className="flex flex-col lg:flex-row justify-between items-center h-full">
