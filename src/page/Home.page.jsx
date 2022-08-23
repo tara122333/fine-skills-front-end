@@ -16,6 +16,7 @@ import ReviewPost from "../components/Review/ReviewPoster.component";
 import Fire from '../Image/search.png';
 
 import Service from "../components/Services";
+import Club from "../components/Club";
 
 
 const HomePage = ()=>{
@@ -181,6 +182,12 @@ const HomePage = ()=>{
                 <div className="w-full md:px-10 lg:my-12 lg:mb-64">
                     <div>
                         <Service />
+                    </div>
+                </div>
+
+                <div className="w-full md:px-10 lg:my-12 lg:mb-64">
+                    <div>
+                        <Club />
                     </div>
                 </div>
 
