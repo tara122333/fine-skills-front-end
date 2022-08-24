@@ -155,14 +155,20 @@ const HomePage = ()=>{
                     </div>
                 </div> */}
 
-                <div className="flex gap-4 flex-col justify-center items-center md:my-7 md:container md:mx-auto md:px-10">
+                <div className="flex gap-4 flex-col justify-center items-center md:my-7 md:container md:mx-auto md:px-10 lg:w-[1500px]">
                     
                     <div className="flex flex-col mt-4 w-full gap-4">
                         <h3 className="font-bold text-3xl lg:text-5xl lg:my-5 text-tara-yellow text-center">UPCOMMING WORKSHOP</h3>
-                        <div className="bg-tara-0 w-full flex justify-center items-center flex-col md:flex-row gap-4 py-4">
+                        <div className="bg-tara-0 w-full flex justify-center items-center flex-col md:flex-row gap-4 py-14">
                             {/* <WorkShopsCarouselPoster className="w-full h-full"/> */}
-                            <div className="lg:h-96 w-full">
-                            <img src={Banner} alt="banner"  className="w-full h-full rounded-lg"/>
+                            <div class="tara">
+                                <div class="wrapper">
+                                    <div class="card">
+                                        <div className="lg:h-96 w-full">
+                                            <img src={Banner} alt="banner"  className="w-full h-full rounded-lg"/>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -179,13 +185,13 @@ const HomePage = ()=>{
             
 
 
-                <div className="w-full md:px-10 lg:my-12 lg:mb-64">
+                <div className="w-full md:px-10 lg:my-12 lg:mb-64 md:container md:mx-auto lg:w-[1500px]">
                     <div>
                         <Service />
                     </div>
                 </div>
 
-                <div className="w-full md:px-10 lg:my-12 lg:mb-64">
+                <div className="w-full md:px-10 lg:my-12 lg:mb-64  md:container md:mx-auto lg:w-[1500px]">
                     <div>
                         <Club />
                     </div>
@@ -204,14 +210,14 @@ const HomePage = ()=>{
                             </div>
                     </div>
                 </div>
-                <div className="flex flex-col justify-center items-center md:container md:mx-auto md:px-10">
+                <div className="flex lg:w-[1500px] flex-col justify-center items-center md:container md:mx-auto">
                     <h3 className="text-3xl text-center font-bold text-tara-0">Learners's Review</h3>
-                    <div className="grid grid-cols-1 gap-3 px-3 md:grid-cols-2 lg:grid-cols-3 my-2 md:my-5 md:gap-6">
-                        <ReviewPost img="https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg" name="Tara Chand Kumawat" title="Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters."/>
-                        <ReviewPost img="https://i.ibb.co/5MMYyx5/viru.jpg" name="Virendra Tiwari" title="Hey folks Virendra this side , Seriously telling I love to talk about Startup, Revolution & Innovation and have always been a part of startup talks as it gave me opportunity to interact with lots of (Small , medium & Unicorns) Start-up Founders,VC's including Mr. Anurag Jain from Cardekho.com , Mr. Ajay Data , Mr. Prateek Mathur and many more .. "/>
+                    <div className="grid grid-cols-1 gap-3 px-3 md:grid-cols-2 lg:grid-cols-3 my-2 md:my-5 md:gap-6 reviewbody justify-center items-center bg-tara-blueCard rounded-3xl">
+                        <ReviewPost img="https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg" name="Tara Chand Kumawat" title="Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters." time="1"/>
+                        <ReviewPost img="https://i.ibb.co/5MMYyx5/viru.jpg" name="Virendra Tiwari" title="Hey folks Virendra this side , Seriously telling I love to talk about Startup, Revolution & Innovation and have always been a part of startup talks" time="5"/>
 
                         <ReviewPost img="https://media-exp1.licdn.com/dms/image/C4D03AQEGP1vPuIyDsA/profile-displayphoto-shrink_800_800/0/1659182274287?e=1665014400&v=beta&t=LEzMQR4VmzuJNQklb7XyeSG29S4FEJbQP3j9spNR5E0" name="Harshit Bhardwaj" 
-                        title="As founder at Hikup, I am working on a mission to make content creation a sustainable profession for everyone and for a vision to create the largest trustworthy network of creators on the internet."
+                        title="As founder at Hikup, I am working on a mission to make content creation a sustainable profession for everyone" time="8"
                         />
                         
                     </div>
