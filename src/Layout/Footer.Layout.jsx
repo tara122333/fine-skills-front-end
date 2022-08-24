@@ -4,7 +4,7 @@ import {BsInstagram,BsWhatsapp,BsLinkedin} from 'react-icons/bs'
 const Footer = () =>{
     return(
         <>
-            <div className="bg-purple-100 flex flex-col text-tara-black px-3 py-5 w-full">
+            <div className="bg-tara-blueCard flex flex-col text-tara-black px-3 py-5 w-full">
                 <div className="flex flex-col gap-3 justify-center md:flex-row w-full md:gap-6">
                     <div className="flex flex-col gap-2 w-full">
                         <div className="flex flex-row">
