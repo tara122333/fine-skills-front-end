@@ -21,9 +21,11 @@ const Categores = (props) => {
         </div>
         <div class="flip-card-back rounded-lg flex justify-center items-center flex-col gap-6 cursor-pointer">
           <h1 className='text-2xl font-bold text-tara-orange'>Join Club</h1> 
-          <button className="flex justify-center items-center gap-3 md:gap-6 bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-16 py-2 text-white hover:shadow-md hover:bg-gradient-to-r hover:from-tara-purple hover:to-tara-blueCard hover:text-tara-black font-bold">
-            Join
-          </button>
+          <a href=" https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2" target="_blank">
+            <button className="flex justify-center items-center gap-3 md:gap-6 bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-16 py-2 text-white hover:shadow-md hover:bg-gradient-to-r hover:from-tara-purple hover:to-tara-blueCard hover:text-tara-black font-bold">
+              Join
+            </button>
+          </a>
         </div>
       </div>
     </div>
