@@ -16,25 +16,25 @@ const ReviewPost = (props) =>{
                     </p>
                 </div>
             </div> */}
-            <div className="main-tara">
-                <ul className="review-cards">
+            <div className="main-tara w-full h-full rounded-3xl cursor-pointer">
+                <ul className="review-cards m-4 h-80 lg:h-full lg:py-4 lg:pb-8 rounded-2xl lg:px-8">
                     <li>
-                        <div className="review-card">
-                        <img src={props.img} className="review-card__image" alt="" />
-                        <div className="review-card__overlay">
-                            <div className="review-card__header">
+                        <div className="review-card w-full h-full">
+                        <img src={props.img} className="review-card__image w-full h-full" alt="" />
+                        <div className="review-card__overlay left-0 right-0 bottom-0">
+                            <div className="review-card__header gap-2 p-3 py-4">
                             <svg className="review-card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                            <img className="review-card__thumb" src={props.img} alt="" />
+                            <img className="review-card__thumb w-10 h-10" src={props.img} alt="" />
                             <div className="review-card__header-text">
-                                <h3 className="review-card__title">
+                                <h3 className="review-card__title text-sm">
                                     {
                                         props.name
                                     }    
                                 </h3>            
-                                <span className="review-card__status">{props.time} hour ago</span>
+                                <span className="review-card__status text-sm font-medium">{props.time} hour ago</span>
                             </div>
                             </div>
-                            <p className="review-card__description">
+                            <p className="review-card__description text-sm font-semibold">
                                 {
                                     props.title
                                 }
