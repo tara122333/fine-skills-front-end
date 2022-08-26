@@ -15,7 +15,8 @@ module.exports = {
             'gray' : "#788097",
             'blueCard' : "#DDF8FE",
             'purple': "#D2EEFF",
-            'orangeCard': "#fca61f"
+            'orangeCard': "#fca61f",
+            'bgblack': "#011b3d",
           },
         },
       },

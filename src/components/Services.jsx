@@ -81,7 +81,7 @@ const Service = () => {
             <div className='flex md:hidden relative flex-1 w-full h-full flex-wrap mb-96'>
                 <motion.div
             initial={{ left: "0rem" }}
-            whileInView={{ left: "10rem" }}
+            whileInView={{ left: "7rem" }}
             transition={transition}
             className="relative"
             >
@@ -94,8 +94,8 @@ const Service = () => {
             </motion.div>
             {/* second card */}
             <motion.div
-            initial={{ left: "10rem", top: "20rem" }}
-            whileInView={{ left: "0rem" }}
+            initial={{ left: "0rem", top: "20rem" }}
+            whileInView={{ left: "7rem" }}
             transition={transition}
             className="relative"
             >
@@ -109,7 +109,7 @@ const Service = () => {
             {/* 3rd */}
             <motion.div
             initial={{ top: "40rem", left: "0rem" }}
-            whileInView={{ left: "10rem" }}
+            whileInView={{ left: "7rem" }}
             transition={transition}
             className="relative"
             >

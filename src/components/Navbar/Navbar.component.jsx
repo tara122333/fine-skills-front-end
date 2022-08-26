@@ -20,8 +20,8 @@ const Navbar = ()=>{
     const handleOnClose = () => setShowMyModel(false);
     return(
         <>
-            <div className="w-full fixed top-0 left-0 bg-white z-30">
-                <div className='md:flex items-center justify-between py-2 px-7 md:py-4 md:px-16'>
+            <div className="w-full fixed top-0 left-0 bg-white z-30 shadow-lg">
+                <div className='md:flex items-center justify-between py-2 px-7 md:py-4 md:px-16 w-full'>
                     <div>
                         <Link to="/">
                             <div className='font-bold text-2xl md:text-3xl cursor-pointer flex items-center'>

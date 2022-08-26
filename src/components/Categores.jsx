@@ -5,7 +5,7 @@ const Categores = (props) => {
   return (
     <div className='flip-card'>
       <div className='flip-card-inner'>
-        <div className='flex flex-col justify-center items-start border-2 border-tara-orange px-3 py-12 mx-3 cursor-pointer gap-1 rounded-lg flip-card-front bg-tara-blueCard'>
+        <div className='flex flex-col justify-center items-start border-2 border-tara-orange px-3 py-12 cursor-pointer gap-1 rounded-lg flip-card-front bg-tara-blueCard'>
           
             <BsCameraReels  className='text-4xl text-tara-yellow my-2 after:text-tara-orange'/>
             <h2 className='text-tara-black text-xl font-bold after:text-white'>

@@ -4,14 +4,14 @@ import {BsInstagram,BsWhatsapp,BsLinkedin} from 'react-icons/bs'
 const Footer = () =>{
     return(
         <>
-            <div className="bg-tara-blueCard flex flex-col text-tara-black px-3 py-5 w-full">
+            <div className="bg-tara-bgblack flex flex-col text-white px-3 py-5 w-full">
                 <div className="flex flex-col gap-3 justify-center md:flex-row w-full md:gap-6">
                     <div className="flex flex-col gap-2 w-full">
                         <div className="flex flex-row">
-                            <span className="text-tara-black text-xl font-bold md:text-2xl">Fine</span>
+                            <span className="text-white text-xl font-bold md:text-2xl">Fine</span>
                             <span className="text-tara-orange text-xl font-bold md:text-2xl">Skills</span>
                         </div>
-                        <p className="text-start text-tara-black md:text-lg">FineSkills is India’s largest and smartest Learners community that enables students to learn new skills, grow their network, and get amazing opportunities in careers.</p>
+                        <p className="text-start text-white md:text-lg">FineSkills is India’s largest and smartest Learners community that enables students to learn new skills, grow their network, and get amazing opportunities in careers.</p>
                     </div>
                     <div className="flex flex-col gap-3 w-full">
                         <h3 className="text-xl text-tara-yellow font-bold md:text-2xl">Company</h3>
