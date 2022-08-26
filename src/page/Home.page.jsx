@@ -210,7 +210,7 @@ const HomePage = ()=>{
                 </div> */}
                 <div className="flex lg:w-[1500px] flex-col justify-center items-center md:container md:mx-auto gap-5">
                     <h3 className="font-bold text-3xl lg:text-5xl lg:my-8 text-tara-yellow text-center">Learners's Review</h3>
-                    <div className="grid grid-cols-1 gap-3 px-3 md:grid-cols-2 lg:grid-cols-3 my-2 md:my-5 md:gap-6 reviewbody justify-center items-center bg-tara-bgblack rounded-3xl">
+                    <div className="grid grid-cols-1 gap-3 px-3 md:grid-cols-2 lg:grid-cols-3 my-2 md:my-5 md:gap-6 reviewbody justify-center items-center bg-purple-100rounded-3xl">
                         <ReviewPost img="https://media-exp1.licdn.com/dms/image/C4D03AQFLhXZMotSC3A/profile-displayphoto-shrink_800_800/0/1656750765178?e=1665014400&v=beta&t=wu_Pi1j4emrJjUHpBenn9r7vTJq4eygZPFnqa9JoPyg" name="Tara Chand Kumawat" title="Seeking to get good learning guidance and career growth opportunities and improve my ability to thrive in a challenging environment where efficiency and accuracy matters." time="1"/>
                         <ReviewPost img="https://i.ibb.co/5MMYyx5/viru.jpg" name="Virendra Tiwari" title="Hey folks Virendra this side , Seriously telling I love to talk about Startup, Revolution & Innovation and have always been a part of startup talks" time="5"/>
 

@@ -22,7 +22,7 @@ const Service = () => {
                     <span className='text-gray-600'>Become a family of india's biggest learners & experts community </span>
                 </div>
                 <div className='my-8'>
-                    <a href="https://www.google.com" download>
+                    <a href="https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2" download>
                         <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-8 py-2 text-white shadow-2xl shadow-tara-yellow hover:bg-gradient-to-r
                     hover:from-white hover:to-white hover:text-tara-yellow hover:shadow-none'>Join Now</button>
                     </a>
