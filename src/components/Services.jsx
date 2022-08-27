@@ -88,7 +88,7 @@ const Service = () => {
             className="relative"
             >
             <Card
-                emoji={img}
+                emoji={opportunity}
                 heading={"Opportunity"}
                 detail={"Actionable programs to offset the Pareto Principle; you will execute projects using what you learned"}
                 className="relative"
@@ -116,7 +116,7 @@ const Service = () => {
             className="relative"
             >
             <Card
-                emoji={img}
+                emoji={expert}
                 heading={"Experts"}
                 detail={
                 "Attend Workshops & get a chane from the expert"
