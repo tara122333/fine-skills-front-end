@@ -1,13 +1,18 @@
 import React from 'react'
-import {BsCameraReels} from 'react-icons/bs'
+
 
 const Categores = (props) => {
   return (
     <div className='flip-card'>
       <div className='flip-card-inner'>
-        <div className='flex flex-col justify-center items-start border-2 border-tara-orange px-3 py-12 cursor-pointer gap-1 rounded-lg flip-card-front bg-tara-blueCard'>
+        <div className='flex flex-col justify-center items-start border-2 border-tara-bgblack px-3 py-12 cursor-pointer gap-1 rounded-lg flip-card-front'>
           
-            <BsCameraReels  className='text-4xl text-tara-yellow my-2 after:text-tara-orange'/>
+            
+            <div className='text-4xl text-tara-yellow my-2 after:text-tara-orange'>
+              {
+                props.icon
+              }
+            </div>
             <h2 className='text-tara-black text-xl font-bold after:text-white'>
               {
                 props.head
@@ -21,7 +26,7 @@ const Categores = (props) => {
         </div>
         <div class="flip-card-back rounded-lg flex justify-center items-center flex-col gap-6 cursor-pointer">
           <h1 className='text-2xl font-bold text-tara-orange'>Join Club</h1> 
-          <a href=" https://chat.whatsapp.com/GrD14ONRd8RKRbLKCCF4V2" target="_blank">
+          <a href={ props.link} target=" _blank">
             <button className="flex justify-center items-center gap-3 md:gap-6 bg-gradient-to-r from-tara-yellow to-tara-orange rounded-full px-16 py-2 text-white hover:shadow-md hover:bg-gradient-to-r hover:from-tara-purple hover:to-tara-blueCard hover:text-tara-black font-bold">
               Join
             </button>

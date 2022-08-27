@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import {GiCancel} from 'react-icons/gi'
 // import Button from './Button.component';
-import MyModel from './MyModel.component';
 import {Link} from 'react-router-dom'
 import NavbarMenu from './NavbarModel';
 
@@ -15,9 +14,6 @@ const Navbar = ()=>{
             name:"Events", link:"/event"
         },
     ];
-    let [open,setOpen] = useState(false);
-    let [showMyModel,setShowMyModel] = useState(false);
-    const handleOnClose = () => setShowMyModel(false);
     return(
         <>
             <div className="w-full fixed top-0 left-0 bg-white z-30 shadow-lg">
@@ -31,7 +27,7 @@ const Navbar = ()=>{
                         </Link>
                     </div>
                     <div>
-                        <ul className="hidden md:flex items-center w-full">
+                        <ul className="hidden md:flex items-center w-full gap-5">
                             {
                                 Links.map((item)=>(
                                     <li key={item.name} className='md:ml-8 text-xl md:my-0 my-7'>
@@ -39,11 +35,15 @@ const Navbar = ()=>{
                                     </li>
                                 ))
                             }
+                            <a href="https://discord.gg/ptdpgHp2" target=" _blank">
+                                <button className='bg-gradient-to-r border-2 border-tara-orange from-tara-yellow to-tara-orange rounded-full px-4 mx-3 lg:px-8 py-1  lg:mx-5 text-white shadow-2xl shadow-tara-yellow hover:shadow-md hover:bg-gradient-to-r hover:from-tara-black hover:to-tara-black hover:border-tara-bgblack'>Join Discord</button>
+                            </a>
                             <button className="hidden md:block text-tara-black rounded md:ml-8 hover:bg-duration" >
                                 <div className='flex justify-center items-center gap-2'>
                                     <span className='text-xl font-semibold'>Login</span>
                                 </div>
                             </button>
+                            {/* https://discord.gg/ptdpgHp2 */}
                         </ul>
                         <div className='flex md:hidden overflow-hidden bg-white'>
                             <NavbarMenu />
