@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fine-skills-front-end/static/css/main.bfaa3f7f.css",
-    "main.js": "/fine-skills-front-end/static/js/main.28ab56c5.js",
+    "main.css": "/fine-skills-front-end/static/css/main.1ceb7c1b.css",
+    "main.js": "/fine-skills-front-end/static/js/main.3cec240e.js",
     "static/media/banner.png": "/fine-skills-front-end/static/media/banner.016e0b88ce0402c36c10.png",
     "static/media/contact.svg": "/fine-skills-front-end/static/media/contact.9dc9aa418e8e53e8317409b59d423688.svg",
     "index.html": "/fine-skills-front-end/index.html",
-    "main.bfaa3f7f.css.map": "/fine-skills-front-end/static/css/main.bfaa3f7f.css.map",
-    "main.28ab56c5.js.map": "/fine-skills-front-end/static/js/main.28ab56c5.js.map"
+    "main.1ceb7c1b.css.map": "/fine-skills-front-end/static/css/main.1ceb7c1b.css.map",
+    "main.3cec240e.js.map": "/fine-skills-front-end/static/js/main.3cec240e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfaa3f7f.css",
-    "static/js/main.28ab56c5.js"
+    "static/css/main.1ceb7c1b.css",
+    "static/js/main.3cec240e.js"
   ]
 }
