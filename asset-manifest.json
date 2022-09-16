@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fine-skills-front-end/static/css/main.bfaa3f7f.css",
+    "main.js": "/fine-skills-front-end/static/js/main.a3991e68.js",
+    "static/media/banner.png": "/fine-skills-front-end/static/media/banner.016e0b88ce0402c36c10.png",
+    "static/media/contact.svg": "/fine-skills-front-end/static/media/contact.9dc9aa418e8e53e8317409b59d423688.svg",
+    "index.html": "/fine-skills-front-end/index.html",
+    "main.bfaa3f7f.css.map": "/fine-skills-front-end/static/css/main.bfaa3f7f.css.map",
+    "main.a3991e68.js.map": "/fine-skills-front-end/static/js/main.a3991e68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfaa3f7f.css",
+    "static/js/main.a3991e68.js"
+  ]
+}
