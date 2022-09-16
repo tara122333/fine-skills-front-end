@@ -12,7 +12,7 @@ const EventPoster = () =>{
                         <h1 className="text-2xl font-bold ">Heading</h1>
                         <span className="text-lg">Discription Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatibus, molestiae aliquid optio laboriosam est accusantium ea, assumenda hic vitae dignissimos! Repellendus iure, error adipisci consequatur doloremque ex ullam officiis!</span>
                     </div>
-                    <a href="https://www.google.com" rel="workshps" target="_blank" >
+                    <a href="https://www.google.com" rel="workshps" target=" _blank" >
                         <div className="w-full bg-tara-0 px-3 py-2 flex justify-center items-center rounded-sm lg:rounded-md">
                             <h1 className=" text-tara-1 text-xl font-bold">Visit Now</h1>
                         </div>

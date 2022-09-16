@@ -1,5 +1,5 @@
 import React from 'react'
-import {BsCameraReels} from 'react-icons/bs'
+// import {BsCameraReels} from 'react-icons/bs'
 import {MdOutlineAttachMoney} from 'react-icons/md'
 import {SiStartrek} from 'react-icons/si'
 import {BiBrain } from 'react-icons/bi'
