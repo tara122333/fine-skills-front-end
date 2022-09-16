@@ -61,7 +61,7 @@ export default function NavbarMenu() {
               </Menu.Item>
             </div>
 
-            <div className="px-1 py-1">
+            {/* <div className="px-1 py-1">
               <Menu.Item>
                 {({ active }) => (
                   <button
@@ -84,7 +84,7 @@ export default function NavbarMenu() {
                   </button>
                 )}
               </Menu.Item>
-            </div>
+            </div> */}
             
           </Menu.Items>
         </Transition>
