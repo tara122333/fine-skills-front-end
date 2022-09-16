@@ -1,7 +1,7 @@
 import { Menu, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
 import {HiMenu} from 'react-icons/hi'
-import{FiLogIn} from 'react-icons/fi'
+// import{FiLogIn} from 'react-icons/fi'
 
 export default function NavbarMenu() {
   return (
